@@ -1,0 +1,79 @@
+[{
+  "company_location": "Mexico",
+  "employee_count": 60
+}, {
+  "company_location": "Russia",
+  "employee_count": 343
+}, {
+  "company_location": "Nigeria",
+  "employee_count": 463
+}, {
+  "company_location": "United States",
+  "employee_count": 71
+}, {
+  "company_location": "Belarus",
+  "employee_count": 476
+}, {
+  "company_location": "Italy",
+  "employee_count": 197
+}, {
+  "company_location": "Indonesia",
+  "employee_count": 480
+}, {
+  "company_location": "Sweden",
+  "employee_count": 400
+}, {
+  "company_location": "Bulgaria",
+  "employee_count": 55
+}, {
+  "company_location": "Armenia",
+  "employee_count": 131
+}, {
+  "company_location": "China",
+  "employee_count": 456
+}, {
+  "company_location": "France",
+  "employee_count": 288
+}, {
+  "company_location": "Czech Republic",
+  "employee_count": 384
+}, {
+  "company_location": "Kenya",
+  "employee_count": 303
+}, {
+  "company_location": "Vietnam",
+  "employee_count": 225
+}, {
+  "company_location": "Kazakhstan",
+  "employee_count": 447
+},  {
+  "company_location": "Brazil",
+  "employee_count": 74
+}, {
+  "company_location": "Bahamas",
+  "employee_count": 367
+}, {
+  "company_location": "Poland",
+  "employee_count": 491
+}, {
+  "company_location": "United Arab Emirates",
+  "employee_count": 85
+}, {
+  "company_location": "Philippines",
+  "employee_count": 310
+}, {
+  "company_location": "Yemen",
+  "employee_count": 99
+}, {
+  "company_location": "Portugal",
+  "employee_count": 466
+}, {
+  "company_location": "Greece",
+  "employee_count": 437
+}, {
+  "company_location": "Colombia",
+  "employee_count": 285
+}, {
+  "company_location": "Iran",
+  "employee_count": 306
+}]

@@ -14,7 +14,7 @@
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 40px;
+    padding-top: 28px;
 }
 
 .sidenav a {
@@ -58,16 +58,15 @@
 }
 #mcontent{
 	margin-left:5%;
-	display: flex;
-	flex-direction: row;
+	
 }
 </style>
 
 <div id="content">
 
 <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  {{link-to 'Home' 'home'}}
+  <a href="javascript:void(0)" onclick="closeNav()" style="margin-bottom:25px;">Dashboard</a>
+  {{link-to 'Home' 'home'}} 
   {{link-to 'Geospatial' 'geospatialview'}}
   {{link-to 'Key Metrics' 'keymetrics'}}
   {{link-to 'Data' 'data'}}
@@ -77,10 +76,11 @@
   <div class="container"> 
   <div ><span style="font-size:30px;cursor:pointer " onclick="openNav()">&#9776;</span>
   </div>
-  <div class="item"><strong id="apph" style="font-size: 30px;">Open</strong></div>
+  <div class="item"><strong id="apph" style="font-size: 30px;">Root</strong></div>
   </div>
   <div id=mcontent>
   		<h2> Welcome to Ember Jeevan</h2>
+  		<br>
         {{outlet}}
   </div> 
   
