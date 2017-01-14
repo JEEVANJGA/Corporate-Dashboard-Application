@@ -8,13 +8,18 @@ export default Ember.Component.extend({
       function drawRegionsMap() {
 
         var data = google.visualization.arrayToDataTable([
-          ['Country', 'Popularity'],
+          ['Country', 'employee_count'],
           ['Germany', 200],
-          ['United States', 300],
-          ['Brazil', 400],
-          ['Canada', 500],
+          ['United States', 1300],
+          ['Brazil', 1400],
+          ['Canada', 1150],
           ['France', 600],
-          ['RU', 700]
+          ['RU', 1400],
+          ['INDIA',1500],
+          ['CHINA',1200],
+          ['EH',1000],
+          ['ML',750],
+          ['LS',700]
         ]);
 
         var options = {};

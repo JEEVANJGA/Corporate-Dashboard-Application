@@ -1,29 +1,39 @@
-[
-  ["Country", "Popularity"],
-  ["Mexico", 60],
-  ["Russia", 343],
-  ["Nigeria", 463],
-  ["United States", 71],
-  ["Belarus", 476],
-  ["Italy", 197],
-  ["Indonesia", 480],
-  ["Sweden", 400],
-  ["Bulgaria", 55],
-  ["Armenia", 131],
-  ["China", 456],
-  ["France", 288],
-  ["Czech Republic", 384],
-  ["Kenya", 303],
-  ["Vietnam", 225],
-  ["Kazakhstan", 447],
-  ["Brazil", 74],
-  ["Bahamas", 367],
-  ["Poland", 491],
-  ["United Arab Emirates", 85],
-  ["Philippines", 310],
-  ["Yemen", 99],
-  ["Portugal", 466],
-  ["Greece", 437],
-  ["Colombia", 285],
-  ["Iran", 306]
-]
+[{
+  "company_location": "Germany",
+  "employee_count": 200
+}, {
+  "company_location": "United States",
+  "employee_count": 1300
+}, {
+  "company_location": "Nigeria",
+  "employee_count": 463
+}, {
+  "company_location": "Brazil",
+  "employee_count": 1400
+},{
+  "company_location": "Canada",
+  "employee_count": 1150
+}, {
+  "company_location": "France",
+  "employee_count": 600
+},{
+  "company_location": "RU",
+  "employee_count": 1400
+},{
+  "company_location": "INDIA",
+  "employee_count": 1500
+},{
+  "company_location": "CHINA",
+  "employee_count": 1200
+}, {
+  "company_location": "EH",
+  "employee_count": 1000
+},{
+  "company_location": "ML",
+  "employee_count": 750
+}, {
+  "company_location": "LS",
+  "employee_count": 700
+}]
+
+ 
