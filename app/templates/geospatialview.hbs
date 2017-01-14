@@ -1,16 +1,16 @@
 <script>document.getElementById("apph").innerHTML = "Geospatial view";</script>
 {{log model}}
-
+<h2 align="center"> Employees in various Countries all over the world</h2>
 {{ggl-chrt}}
 	<br>
-	<table style="border:1px solid black">
+	<table align="center"style="border:1px solid black">
 		<tr > 
-			<th style="border:1px solid black">country</th><th style="border:1px solid black">Employee count</th>
+			<th style="border:1px solid black;padding:8px;">Country</th><th style="border:1px solid black;padding:8px;">Employee count</th>
 		</tr>
 		{{#each model as |item|}}
 				  <tr >
-				  		<td style="border:1px solid black">{{item.company_location}}</td>
-				  		<td style="border:1px solid black">{{item.employee_count}}</td>
+				  		<td style="border:1px solid black;padding:8px;">{{item.company_location}}</td>
+				  		<td style="border:1px solid black;padding:8px;">{{item.employee_count}}</td>
 				  </tr>
 		{{/each}}
 	</table>

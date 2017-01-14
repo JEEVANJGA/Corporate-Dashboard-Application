@@ -5,28 +5,21 @@ export default Ember.Component.extend({
   google.charts.load('upcoming', {'packages':['geochart']});
       google.charts.setOnLoadCallback(drawRegionsMap);
 
-      function drawRegionsMap() {
+function drawRegionsMap() {var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1ZYdibZkIss4LzZ0vs2GwKbEi6AlSI_p5vzTHkBJ5fvM/edit#gid=0');
+								  query.send(handleQueryResponse);
+								}
 
-        var data = google.visualization.arrayToDataTable([
-          ['Country', 'employee_count'],
-          ['Germany', 200],
-          ['United States', 1300],
-          ['Brazil', 1400],
-          ['Canada', 1150],
-          ['France', 600],
-          ['RU', 1400],
-          ['INDIA',1500],
-          ['CHINA',1200],
-          ['EH',1000],
-          ['ML',750],
-          ['LS',700]
-        ]);
-
-        var options = {};
-
-        var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
-
-        chart.draw(data, options);
+function handleQueryResponse(response) {
+	if (response.isError()) {
+        alert('Error in query: ' + response.getMessage() + ' ' + response.getDetailedMessage());
+        return;
       }
+  var data = response.getDataTable();
+  console.log(data);
+  var options = {};
+  var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+  chart.draw(data, options);
+}
 }
 });
+
