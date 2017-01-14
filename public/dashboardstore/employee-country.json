@@ -1,79 +1,29 @@
-[{
-  "company_location": "Mexico",
-  "employee_count": 60
-}, {
-  "company_location": "Russia",
-  "employee_count": 343
-}, {
-  "company_location": "Nigeria",
-  "employee_count": 463
-}, {
-  "company_location": "United States",
-  "employee_count": 71
-}, {
-  "company_location": "Belarus",
-  "employee_count": 476
-}, {
-  "company_location": "Italy",
-  "employee_count": 197
-}, {
-  "company_location": "Indonesia",
-  "employee_count": 480
-}, {
-  "company_location": "Sweden",
-  "employee_count": 400
-}, {
-  "company_location": "Bulgaria",
-  "employee_count": 55
-}, {
-  "company_location": "Armenia",
-  "employee_count": 131
-}, {
-  "company_location": "China",
-  "employee_count": 456
-}, {
-  "company_location": "France",
-  "employee_count": 288
-}, {
-  "company_location": "Czech Republic",
-  "employee_count": 384
-}, {
-  "company_location": "Kenya",
-  "employee_count": 303
-}, {
-  "company_location": "Vietnam",
-  "employee_count": 225
-}, {
-  "company_location": "Kazakhstan",
-  "employee_count": 447
-},  {
-  "company_location": "Brazil",
-  "employee_count": 74
-}, {
-  "company_location": "Bahamas",
-  "employee_count": 367
-}, {
-  "company_location": "Poland",
-  "employee_count": 491
-}, {
-  "company_location": "United Arab Emirates",
-  "employee_count": 85
-}, {
-  "company_location": "Philippines",
-  "employee_count": 310
-}, {
-  "company_location": "Yemen",
-  "employee_count": 99
-}, {
-  "company_location": "Portugal",
-  "employee_count": 466
-}, {
-  "company_location": "Greece",
-  "employee_count": 437
-}, {
-  "company_location": "Colombia",
-  "employee_count": 285
-}, {
-  "company_location": "Iran",
-  "employee_count": 306
-}]
+[
+  ["Country", "Popularity"],
+  ["Mexico", 60],
+  ["Russia", 343],
+  ["Nigeria", 463],
+  ["United States", 71],
+  ["Belarus", 476],
+  ["Italy", 197],
+  ["Indonesia", 480],
+  ["Sweden", 400],
+  ["Bulgaria", 55],
+  ["Armenia", 131],
+  ["China", 456],
+  ["France", 288],
+  ["Czech Republic", 384],
+  ["Kenya", 303],
+  ["Vietnam", 225],
+  ["Kazakhstan", 447],
+  ["Brazil", 74],
+  ["Bahamas", 367],
+  ["Poland", 491],
+  ["United Arab Emirates", 85],
+  ["Philippines", 310],
+  ["Yemen", 99],
+  ["Portugal", 466],
+  ["Greece", 437],
+  ["Colombia", 285],
+  ["Iran", 306]
+]
