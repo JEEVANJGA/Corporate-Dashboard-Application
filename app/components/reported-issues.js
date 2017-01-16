@@ -18,11 +18,11 @@ export default Ember.Component.extend({
 				  	title: 'Reported issues in the year 2016',
 				  	chartArea: {width: '50%'},
 						        hAxis: {
-						          title: 'Time',
+						          title: 'Reported issues',
 						          minValue: 0
 						        },
 						        vAxis: {
-						          title: 'Customers'
+						          title: 'Week'
 						        },
 
 						        
