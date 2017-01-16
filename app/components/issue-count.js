@@ -15,7 +15,7 @@ export default Ember.Component.extend({
 				  var data = response.getDataTable();
 				  //console.log(data);
 				  var options = {
-				          title: 'Issues Open & Closed',
+				          title: 'Issues Opened & Closed in the year 2016',
 				          pieHole: 0.1,
 				        };
         var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
