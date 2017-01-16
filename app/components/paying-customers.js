@@ -18,7 +18,7 @@ export default Ember.Component.extend({
 				  	title: 'Paying Customers in the year 2016',
 				  	chartArea: {width: '50%'},
 						        hAxis: {
-						          title: 'Time'
+						          title: 'Week'
 						        },
 						        vAxis: {
 						          title: 'Customers'
