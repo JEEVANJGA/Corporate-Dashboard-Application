@@ -13,7 +13,7 @@
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 28px;
+    padding-top: 7px;
 }
 
 .sidenav a {
@@ -64,16 +64,18 @@
 <div id="content">
 
 <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" onclick="closeNav()" style="margin-bottom:25px;">Dashboard</a>
-  {{link-to 'Home' 'home'}} 
-  {{link-to 'Geospatial' 'geospatialview'}}
-  {{link-to 'Key Metrics' 'keymetrics'}}
-  {{link-to 'Data' 'data'}}
+<ul>
+  <li><a href="#" onclick="closeNav()" style="margin-bottom:25px;">Dashboard</a></li>
+  <li>{{link-to 'Home' 'index'}} </li>
+  <li>{{link-to 'Geospatial' 'geospatialview'}}</li>
+  <li>{{link-to 'Key Metrics' 'keymetrics'}}</li>
+  <li>{{link-to 'Data' 'data'}}</li>
+</ul>
 </div>
 
 <div id="main">
   <div class="container"> 
-  <div ><span style="font-size:30px;cursor:pointer " onclick="openNav()">&#9776;</span>
+  <div ><span style="font-size:25px;cursor:pointer " onclick="openNav()">Dashboard</span>
   </div>
   <div class="item"><strong id="apph" style="font-size: 30px;">Root</strong></div>
   </div>
@@ -92,6 +94,7 @@ function openNav() {
 /* Set the width of the side navigation to 0 */
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
+
 }
 </script>    
 </div>

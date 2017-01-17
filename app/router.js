@@ -7,7 +7,6 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('home');
   this.route('geospatialview');
   this.route('keymetrics');
   this.route('data');
