@@ -17,6 +17,8 @@ You must develop a corporate dashboard application using a front-end MVC framewo
 	*closed timestamp
 	*employee name
 
+## Demo Site
+* https://corporate-dashboard-app.firebaseapp.com/
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
