@@ -23,6 +23,15 @@ module.exports = function(environment) {
     }
   };
 
+var options = {
+  storeConfigInMeta: false,
+  fingerprint: {
+    enabled: false,
+  },
+  emberCliConcat: {
+    /* Test custom options here */
+  }
+};
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
@@ -43,7 +52,14 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+          options.emberCliConcat = {
+        css: {
+          concat: true
+        },
+        js: {
+          concat: true
+        }
+      }  
   }
 
   return ENV;
