@@ -13,7 +13,7 @@
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 7px;
+    padding-top: 30px;
 }
 
 .sidenav a {
@@ -64,18 +64,18 @@
 <div id="content">
 
 <div id="mySidenav" class="sidenav">
-<ul>
-  <li><a href="javascript:void(0)" onclick="closeNav()" style="margin-bottom:25px;">Dashboard</a></li>
-  <li>{{link-to 'Home' 'index'}} </li>
-  <li>{{link-to 'Geospatial' 'geospatialview'}}</li>
-  <li>{{link-to 'Key Metrics' 'keymetrics'}}</li>
-  <li>{{link-to 'Data' 'data'}}</li>
-</ul>
+
+  <a href="javascript:void(0)" onclick="closeNav()" style="margin-bottom:25px;">Dashboard</a>
+  {{link-to 'Home' 'index'}} 
+  {{link-to 'Geospatial' 'geospatialview'}}
+  {{link-to 'Key Metrics' 'keymetrics'}}
+  {{link-to 'Data' 'data'}}
+
 </div>
 
 <div id="main">
   <div class="container"> 
-  <div ><span style="font-size:25px;cursor:pointer " onclick="openNav()">Dashboard</span>
+  <div ><span style="font-size:45px;cursor:pointer " onclick="openNav()">&#9776;</span>
   </div>
   <div class="item"><strong id="apph" style="font-size: 30px;">Root</strong></div>
   </div>
