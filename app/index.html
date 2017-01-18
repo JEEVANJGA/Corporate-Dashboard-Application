@@ -10,16 +10,14 @@
      <script type="text/javascript">google.charts.load('current', {'packages':['corechart','geochart','line','bar']});</script>
     {{content-for "head"}}
 
-    <link rel="stylesheet" href="{{rootURL}}assets/vendor.css">
-    <link rel="stylesheet" href="{{rootURL}}assets/corporate-dashboard-app.css">
+    {{content-for 'concat-css'}}
     
     {{content-for "head-footer"}}
   </head>
   <body>
     {{content-for "body"}}
 
-    <script src="{{rootURL}}assets/vendor.js"></script>
-    <script src="{{rootURL}}assets/corporate-dashboard-app.js"></script>
+   {{content-for 'concat-js'}}
 
     {{content-for "body-footer"}}
   </body>
